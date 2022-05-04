@@ -1,0 +1,107 @@
+
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+body {
+  background-color: #E0D0C1;
+  font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
+  color: #601700;
+  font-size: 15px;
+  line-height: 2;
+}
+
+h1, h2, h3 {
+  color: #601700;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+a {
+  color: #f84046;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color:  #8a2d30;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: #F7F9F9;
+  border-radius: 5px;
+  box-shadow: 5px 15px 20px rgba(96, 23, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.btn-red {
+  background-color: #FF595E;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-red:hover {
+  background-color: #8a2d30;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 5px;
+
+}
+
+.card-button {
+  margin: 10px;
+}
+
+.btn-social {
+  font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
